@@ -6,7 +6,7 @@ from yt_dlp import YoutubeDL
 
 # Mistral API configuration
 API_URL = "https://api.mistral.ai/v1"
-API_KEY = "Cwczvpnd4GL5Z6iQIiEFhvj6dnGyj01v"
+API_KEY = "<your-auth>"
 headers = {
     "Content-Type": "application/json",
     "Accept": "application/json",
@@ -14,7 +14,7 @@ headers = {
 }
 
 # Deepgram API configuration
-DEEPGRAM_API_KEY = "a8406bad156ea9504f6ac09a7b30332ebde7a174"
+DEEPGRAM_API_KEY = "<your-auth>"
 deepgram = DeepgramClient(DEEPGRAM_API_KEY)
 
 # Function to download audio from YouTube video URL
